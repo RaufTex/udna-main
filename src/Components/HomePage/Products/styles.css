@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+}
+
+.products {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
+  display: flex;
+  align-items: center;
+  max-width: 1920px;
+}
+
+.products .content-products h2 {
+  color: #4c248e;
+  font-family: "SF-Semibold";
+  font-size: 4.8rem;
+  font-weight: 600;
+  font-style: normal;
+  text-align: initial;
+  letter-spacing: -0.03em;
+  line-height: 57px;
+  margin: 0;
+}
+
+.products .content-products .sub-title {
+  color: #5a3d8a;
+  /* font-family: "SF-Semibold"; */
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 300;
+
+  line-height: 43px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+}
+
+.products .content-products {
+  width: 80%;
+
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 1920px;
+}
+.carousel {
+  width: 100%;
+  max-width: 1920px;
+  margin-right: 10%;
+}
+.card .ant-card {
+  margin-top: 50px;
+  background: #5a3d8a;
+  width: 326px;
+  height: 280px;
+  margin-right: 50px;
+}
+
+.cards-products h4 {
+  font-size: 2.4rem;
+}
+
+.card .description {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: white;
+  line-height: 2.1rem;
+}
+
+.card h4 {
+  font-size: 2.4rem;
+  color: #cab0ff;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.cards-products h4 {
+  color: #cab0ff;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .products {
+    height: 100vh;
+  }
+
+  .products .content-products h2 {
+    font-size: 2.5rem;
+  }
+
+  .products .content-products .sub-title {
+    font-size: 1.6rem;
+  }
+
+  .ant-row.card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card .ant-card {
+    margin-top: 50px;
+    width: 326px;
+    height: 220px;
+    margin-right: 50px;
+  }
+  .products .content-products {
+    margin-left: 30px;
+  }
+
+  .card .description {
+    font-size: 1.4rem;
+  }
+
+  .card .card-products h4 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+  }
+}

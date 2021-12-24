@@ -1,0 +1,122 @@
+h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dna-paternity {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
+    align-items: flex-end;
+}
+
+.content-dna-paternity {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.images-dna-paternity {
+    display: flex;
+}
+
+.images-dna-paternity img {
+    margin-right: 10px;
+}
+
+.content-dna-paternity h2, h4 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 4.9rem;
+    font-weight: 700;
+}
+
+.content-dna-paternity h4 {
+    color: #365F82;
+}
+
+.content-dna-paternity h3 {
+    font-size: 1.5625rem;
+    text-align: center;
+    color: #4C248E;
+    margin-bottom: 40px;
+}
+
+.dna-paternity .father {
+    height: 90vh;
+}
+
+.mommy {
+    height: 100vh;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .dna-paternity {
+        height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        z-index: 100;
+    }
+    
+    .content-dna-paternity {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: initial;
+        margin-top: 150px;
+    }
+    
+    .images-dna-paternity {
+        display: flex;
+    }
+
+    .images-dna-paternity img {
+        width: 100px;
+    }
+    
+    .images-dna-paternity img {
+        margin-right: 10px;
+    }
+    
+    .content-dna-paternity h2, h4 {
+        font-size: 2.5rem;
+        line-height: 5px;
+        font-weight: 700;
+    }
+    
+    .content-dna-paternity h4 {
+        margin-bottom: 20px;
+    }
+    
+    .content-dna-paternity h3 {
+        font-size: 1.4rem;
+        max-width: 280px;
+        margin-bottom: 40px;
+    }
+
+    .background-image {
+        display: flex;
+    }
+    
+    .dna-paternity .father {
+        fill: transparent;
+        height: 90vh;
+        width: 0;
+        height: 0;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .mommy {
+        height: 100vh;
+        width: 400px;
+        height: 400px;
+    }
+}

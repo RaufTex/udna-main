@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SF-Semi';
+    src: url(/src/fonts/SF-Semibold.ttf);
+  }
+
+  @font-face {
+    font-family: 'SF-Regular';
+    src: url(/src/fonts/SF-Regular.ttf);
+  }
+  
+  @font-family-semi: 'SF-Regular';
+  @font-family-regular: 'Effra Regular', Courier, monospace;
+  

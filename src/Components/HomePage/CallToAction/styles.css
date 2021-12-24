@@ -1,0 +1,61 @@
+.call-to-action  {
+    height: 100vh;
+    background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.call-to-action .content h3 {
+    color: #365F82;
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+.call-to-action .content h2 {
+    color: #4C248E;
+    font-size: 4.8rem;
+    font-weight: 600;
+}
+
+.call-to-action .content {
+    margin: 0;
+}
+
+.call-to-action .content img {
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+    .call-to-action  {
+        height: 100vh;
+        background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
+        display: flex;
+        margin-top: 100px;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .call-to-action .content {
+        margin-top: 200px;
+    }
+
+    .call-to-action .content h3 {
+        font-size: 1.8rem;
+    }
+    
+    .call-to-action .content h2 {
+        font-size: 2.5rem;
+    }
+    
+    .call-to-action .content img {
+        margin-right: 10px;
+        margin-top: 30px;
+        width: 100px;
+    }
+}

@@ -3,35 +3,39 @@ import { Carousel, Card } from "antd";
 
 export const CardsProducts = () => {
   var settings = {
-    dots: false,
+    dots: true,
     slidesPerRow: 3,
+     /* centerMode: true,  */
     
+ 
     responsive: [
       {
         breakpoint: 1250,
         settings: {
-          slidesToShow: 1,
+          //slidesToShow: 2,
           slidesPerRow: 2,
-          //slidesToScroll: 3,
-          //infinite: true,
-          dots: false
+         
+        
+      
         }
       },
       {
         breakpoint: 830,
         settings: {
-          slidesToShow: 1,
+          //slidesToShow: 1,
           slidesPerRow: 1,
+        
           //initialSlide: 2
         }
       },
-      /* {
-        breakpoint: 480,
+      {
+        breakpoint: 376,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesPerRow: 1,
+          initialSlide: 0
+        
         }
-      } */
+      } 
     ]
   };
   return (

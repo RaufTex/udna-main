@@ -76,12 +76,12 @@ footer {
     text-align: center;
 }
 
-@media (max-width: 1057px){
+@media (max-width: 1060px){
   html {
       font-size: 50%;
   }
 }
-@media (max-width: 950px){
+/* @media (max-width: 950px){
   html {
       font-size: 40%;
   }
@@ -92,8 +92,8 @@ footer {
   }
 }
 
-@media (max-width: 375px){
+@media (min-width: 270px){
   html {
       font-size: 62.5%;
   }
-}
+} */

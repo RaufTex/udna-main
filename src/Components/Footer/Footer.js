@@ -7,7 +7,7 @@ export const Footer = () => {
         <section className='footer'>
             <div className='logo-and-icons'>
             <div className='logo'>
-                <a href='/'><img src="/images/uDNA_logo.svg" alt="" /></a>
+                <a href='/'><img src="/images/uDNA_logo_extenso_roxo.svg" alt="" /></a>
             </div>
             <div>
                 <ul className='icons'>

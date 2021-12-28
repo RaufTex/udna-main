@@ -20,6 +20,7 @@ export const BannerInitial = () => {
         >
           <img className="google" src="/images/google.svg" alt="" />
         </a>
+        
       </div>
       <div className="img-background">
         <img src="/images/banner.svg" alt="" />

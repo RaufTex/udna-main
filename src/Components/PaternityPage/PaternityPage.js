@@ -8,6 +8,9 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header"
 
 
+/*    position: absolute;
+    top: 0;
+    background: local;*/ 
 function PaternityPage() {
   return (
     <>

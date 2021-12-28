@@ -2,6 +2,14 @@
   margin: 0;
 }
 
+body {
+  background-image: url("./blobWeb.png");
+  background-repeat: no-repeat;
+  background-position: bottom; 
+  background-size: 400px;
+  background-position-y: center;
+
+}
 .products {
   width: 100%;
   height: 100vh;
@@ -9,7 +17,11 @@
   display: flex;
   align-items: center;
   max-width: 1920px;
+  /* background-image: url("./blobWeb.png");
+  background-repeat: no-repeat;
+  background-position:center; */
 }
+
 
 .products .content-products h2 {
   color: #4c248e;
@@ -46,7 +58,11 @@
 .carousel {
   width: 100%;
   max-width: 1920px;
-  margin-right: 10%;
+  /* margin-right: 10%; */
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: -30px;
 }
 .card .ant-card {
   margin-top: 50px;
@@ -80,15 +96,19 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .products {
-    height: 100vh;
+    height: auto;
+    
   }
 
   .products .content-products h2 {
     font-size: 2.5rem;
+    line-height: 30px;
   }
 
   .products .content-products .sub-title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    line-height: 21px;
+    letter-spacing: -0.03em;
   }
 
   .ant-row.card {
@@ -96,14 +116,18 @@
     flex-direction: column;
   }
 
+  
+
   .card .ant-card {
     margin-top: 50px;
-    width: 326px;
+    width: 286px;
     height: 220px;
     margin-right: 50px;
   }
   .products .content-products {
     margin-left: 30px;
+    margin-top: 10%;
+    margin-bottom: 25%;
   }
 
   .card .description {

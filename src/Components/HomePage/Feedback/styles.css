@@ -1,6 +1,9 @@
 .feedback {
   width: 100%;
   height: 100vh;
+ /*  display: flex;
+  flex-direction: column;
+  align-items: center; */
   background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
   /* padding: 0 400px; */
   max-width: 1920px;
@@ -12,13 +15,17 @@
   justify-content: center;
   flex-direction: column;
   height: 50vh;
+  text-align: center;
 }
 
 .title h2 {
+  font-family: "SF-Semibold";
   color: #4c248e;
   font-size: 4.8rem;
   font-weight: 600;
+  text-align: center;
 }
+
 
 .title h4 {
   color: #365f82;
@@ -47,6 +54,7 @@
 }
 .ant-carousel {
     width: 100%;
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -56,7 +64,8 @@
     line-height: 1.5715;
     list-style: none;
     font-feature-settings: "tnum", "tnum", "tnum";
-    /* margin-left: 5%; */
+    text-align: left;
+    /* margin-left: 5%; */ 
 }
 
 .ant-carousel .slick-dots li.slick-active button {
@@ -64,6 +73,10 @@
   height: 10px;
   border-radius: 50px;
   background-color: #365f82;
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: -30px;
 }
 
 .ant-carousel .slick-dots li button {
@@ -74,10 +87,18 @@
 }
 
 .App {
-  padding: 10px 100px;
+  padding: 10px 80px;
+  
+ 
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  .App {
+    padding: 10px 30px;
+    
+   
+  }
   .feedback {
     padding: 0 10px;
   }
@@ -96,9 +117,15 @@
   }
 
   .ant-card {
-    height: 280px;
-    width: 326px;
+    width: 308px;
+    height: 296px;
+   
+    
+    
+    
+  
   }
+
 
   .ant-card-head-title {
     font-size: 2.2rem;

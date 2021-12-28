@@ -6,7 +6,7 @@ export const Header = () => {
 
     return (
         <header class="header">
-            <a className='logo' href='/'><img src="/images/uDNA_logo.svg" alt="" /></a>
+            <a className='logo' href='/'><img src="/images/uDNA_logo_extenso_roxo.svg" alt="" /></a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">

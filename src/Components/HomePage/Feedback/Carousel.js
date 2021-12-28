@@ -5,40 +5,48 @@ import "./styles.css";
 
 export const Testemunhals = () => {
   var settings = {
-    dots: false,
-    slidesPerRow: 4,
+    dots: true,
+    slidesPerRow: 3,
+    initialSlide: 0,
+    /* centerMode: true, */
+   /*  itemClass:"carousel-item-padding-10-px",
+    containerClass:"carousel-container", */
 
     responsive: [
       {
         breakpoint: 1250,
         settings: {
-          slidesToShow: 1,
+          /* slidesToShow: 1, */
           slidesPerRow: 2,
-          slidesToScroll: 4,
+      
+          //slidesToScroll: 4,
           //infinite: true,
-          dots: false,
         },
       },
       {
         breakpoint: 830,
         settings: {
-          slidesToShow: 1,
+         /*  slidesToShow: 1, */
           slidesPerRow: 1,
-          //initialSlide: 2
+         
         },
       },
-      /* {
-        breakpoint: 480,
+      {
+        breakpoint: 375,
+        items: 1,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      } */
+         /*  slidesToShow: 1, */
+          slidesPerRow: 1,
+          slidesToScroll: 1,
+          //initialSlide: 0,
+          
+        },
+      },
     ],
   };
   return (
     <>
-      <Carousel {...settings}>
+      <Carousel  {...settings}>
         <div className="App">
           <Card className="color-card" title="Gabriel Santos" bordered={false}>
             <div className="star-icon">

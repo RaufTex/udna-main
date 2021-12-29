@@ -51,10 +51,15 @@ a {
 .header .logo {
   display: block;
   float: left;
+  
 
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+}
+.header .logo img {
+  width: 127px;
+  height: 36px;
 }
 
 /* menu */

@@ -94,8 +94,15 @@ h2, h3, h4{
     .dna-paternity .father {
         max-width: 460px;
     }
+    
+}
+
+@media (max-width: 1034px) {
+    .dna-paternity .father {
+        max-width: 410px;
+    }
     .mommy {
-        max-width: 460px;
+        max-width: 490px;
     }
 }
 

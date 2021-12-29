@@ -7,7 +7,7 @@ export const NewsLetter = () => {
         <section class="newsletter">  
         <div className='content'>
                <h4>PROMOÇÕES</h4>
-             <h2>Inscreva-se e fique sabendo de nossas promoções:</h2>
+             <h2>Inscreva-se e fique sabendo das nossas promoções:</h2>
             </div>
             <div class="formContainer">
                 <form action="">

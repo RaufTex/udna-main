@@ -8,7 +8,7 @@ export const Testemunhals = () => {
     dots: true,
     slidesPerRow: 3,
     initialSlide: 0,
-    /* centerMode: true, */
+    centerMode: true,
    /*  itemClass:"carousel-item-padding-10-px",
     containerClass:"carousel-container", */
 
@@ -28,7 +28,7 @@ export const Testemunhals = () => {
         settings: {
          /*  slidesToShow: 1, */
           slidesPerRow: 1,
-         
+          centerMode: false
         },
       },
       {
@@ -38,6 +38,7 @@ export const Testemunhals = () => {
          /*  slidesToShow: 1, */
           slidesPerRow: 1,
           slidesToScroll: 1,
+          centerMode: false
           //initialSlide: 0,
           
         },

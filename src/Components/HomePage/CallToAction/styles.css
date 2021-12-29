@@ -8,9 +8,15 @@
 }
 
 .call-to-action .content h3 {
+    font-family: "SF-Semibold";
     color: #365F82;
     font-size: 3.5rem;
     font-weight: normal;
+    font-style: normal;
+
+line-height: 4.2rem;
+text-align: center;
+letter-spacing: -0.03em;
 }
 
 .call-to-action .content h2 {
@@ -18,6 +24,8 @@
     color: #4C248E;
     font-size: 4.8rem;
     font-weight: 600;
+    line-height: 5.7rem;
+letter-spacing: -0.03em;
 }
 
 .call-to-action .content {
@@ -33,7 +41,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { 
     .call-to-action  {
-        height: 100vh;
+        height: 78vh;
         background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
         display: flex;
         /* margin-top: 100px; */
@@ -43,15 +51,19 @@
     }
 
     .call-to-action .content {
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     .call-to-action .content h3 {
         font-size: 1.8rem;
+        line-height: 2.1rem;
+text-align: center;
+letter-spacing: -0.03em;
     }
     
     .call-to-action .content h2 {
         font-size: 2.5rem;
+        line-height: 3.0rem;
     }
     
     .call-to-action .content img {

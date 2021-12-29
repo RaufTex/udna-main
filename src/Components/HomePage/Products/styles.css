@@ -5,10 +5,9 @@
 body {
   background-image: url("./blobWeb.png");
   background-repeat: no-repeat;
-  background-position: bottom; 
+  background-position: bottom;
   background-size: 400px;
   background-position-y: center;
-
 }
 .products {
   width: 100%;
@@ -21,7 +20,6 @@ body {
   background-repeat: no-repeat;
   background-position:center; */
 }
-
 
 .products .content-products h2 {
   color: #4c248e;
@@ -37,12 +35,12 @@ body {
 
 .products .content-products .sub-title {
   color: #5a3d8a;
-  /* font-family: "SF-Semibold"; */
+  font-family: "SF-Semibold";
   font-size: 3.6rem;
   font-style: normal;
   font-weight: 300;
 
-  line-height: 43px;
+  line-height: 55px;
   /* identical to box height */
 
   letter-spacing: -0.03em;
@@ -64,6 +62,8 @@ body {
 .ant-carousel .slick-dots-bottom {
   bottom: -30px;
 }
+
+
 .card .ant-card {
   margin-top: 50px;
   background: #5a3d8a;
@@ -77,16 +77,20 @@ body {
 }
 
 .card .description {
+  font-family: "SF-Semibold";
   font-size: 1.8rem;
   font-weight: 300;
   color: white;
   line-height: 2.1rem;
+  letter-spacing: -0.03em;
+  font-style: normal;
 }
 
 .card h4 {
+  font-family: "SF-Semibold";
   font-size: 2.4rem;
   color: #cab0ff;
-  font-weight: 700;
+  font-weight: bold;
   text-align: justify;
 }
 
@@ -97,7 +101,6 @@ body {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .products {
     height: auto;
-    
   }
 
   .products .content-products h2 {
@@ -116,8 +119,6 @@ body {
     flex-direction: column;
   }
 
-  
-
   .card .ant-card {
     margin-top: 50px;
     width: 286px;
@@ -126,16 +127,21 @@ body {
   }
   .products .content-products {
     margin-left: 30px;
-    margin-top: 10%;
-    margin-bottom: 25%;
+    margin-top: 32%;
+    margin-bottom: 32%;
   }
 
   .card .description {
     font-size: 1.4rem;
+    line-height: 17px;
+    
   }
 
   .card .card-products h4 {
     font-size: 1.8rem;
     margin-top: 30px;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    font-style: normal;
   }
 }

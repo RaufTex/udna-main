@@ -1,7 +1,7 @@
 .feedback {
   width: 100%;
   height: 100vh;
- /*  display: flex;
+  /*  display: flex;
   flex-direction: column;
   align-items: center; */
   background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
@@ -24,28 +24,42 @@
   font-size: 4.8rem;
   font-weight: 600;
   text-align: center;
+  line-height: 5.7rem;
+  letter-spacing: -0.03em;
 }
 
-
 .title h4 {
+  font-family: "SF-Semibold";
   color: #365f82;
   font-size: 3.2rem;
+  letter-spacing: -0.03em;
+  line-height: 3.8rem;
 }
 
 .ant-card {
   border-radius: 15px;
-  height: 280px;
+  height: 239px;
   width: 326px;
 }
 
 .ant-card-head-title {
+  font-family: "SF-Semibold";
   color: #5a3d8a;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 2.8rem;
+  line-height: 33px;
+letter-spacing: -0.03em;
+font-style: normal;
 }
 
 .color-card {
   color: #5a3d8a;
+  font-family: "SF-Semibold";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: -0.04em;
 }
 
 .star-icon {
@@ -53,19 +67,19 @@
   color: #9aaef5;
 }
 .ant-carousel {
-    width: 100%;
-    
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: rgba(0, 0, 0, 0.85);
-    font-size: 16px;
-    font-variant: tabular-nums;
-    line-height: 1.5715;
-    list-style: none;
-    font-feature-settings: "tnum", "tnum", "tnum";
-    text-align: left;
-    /* margin-left: 5%; */ 
+  width: 100%;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum", "tnum";
+  text-align: left;
+  /* margin-left: 5%; */
 }
 
 .ant-carousel .slick-dots li.slick-active button {
@@ -88,46 +102,59 @@
 
 .App {
   padding: 10px 80px;
-  
- 
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-
   .App {
     padding: 10px 30px;
-    
-   
   }
   .feedback {
     padding: 0 10px;
+    height: 80vh;
   }
 
   .title {
-    height: 40vh;
+    height: 30vh;
   }
 
   .title h2 {
     font-size: 2.5rem;
     margin: 0;
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: -0.03em;
   }
 
   .title h4 {
     font-size: 1.8rem;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-weight: 500;
   }
 
   .ant-card {
     width: 308px;
-    height: 296px;
-   
-    
-    
-    
-  
+    height: 196px;
   }
-
 
   .ant-card-head-title {
     font-size: 2.2rem;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .color-card {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 17px;
+    letter-spacing: -0.04em;
   }
 }

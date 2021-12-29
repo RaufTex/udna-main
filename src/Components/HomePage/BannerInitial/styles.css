@@ -78,7 +78,7 @@
 @media (max-width: 1030px){
     .banner-initial { flex-direction: column; align-items: flex-end; }
     .banner-initial .content {
-        margin-top: 4%;
+        margin-top: 14%;
         padding: 0 66px
         
         

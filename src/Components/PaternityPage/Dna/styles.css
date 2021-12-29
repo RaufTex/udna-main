@@ -1,175 +1,246 @@
-h2, h3, h4{
-    font-family: 'Open Sans', sans-serif;
+h2,
+h3,
+h4 {
+  font-family: "SF-Semibold";
 }
 
-
 .dna-paternity {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
-    align-items: flex-end;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
+  align-items: flex-end;
 }
 
 .content-dna-paternity {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.images-dna-paternity {
+  display: flex;
+}
+
+.images-dna-paternity img {
+  margin-right: 10px;
+}
+
+.content-dna-paternity h2,
+h4 {
+  font-family: "SF-Semibold";
+  font-size: 4rem;
+  text-align: center;
+  line-height: 2.4rem;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.05em;
+}
+
+.content-dna-paternity h4 {
+  font-family: "SF-Semibold";
+  color: #365f82;
+}
+
+.content-dna-paternity h3 {
+  font-family: "SF-Semibold";
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4c248e;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 300;
+
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: -0.05em;
+}
+
+.imagens {
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+.imagensFix {
+  width: 100%;
+  height: 100%;
+  right: 0;
+}
+.dna-paternity .father {
+   
+
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 702px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.mommy {
+   
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 702px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1330px) {
+  .dna-paternity .father {
+    max-width: 560px;
+  }
+  .mommy {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .dna-paternity .father {
+    max-width: 460px;
+  }
+  .mommy {
+      max-width: 498px;
+  }
+}
+
+@media (max-width: 1034px) {
+  .dna-paternity .father {
+    max-width: 410px;
+  }
+  .mommy {
+    max-width: 498px;
+  }
+}
+
+@media (max-width: 980px) {
+  .content-dna-paternity {
+    height: 126vh;
+  }
+}
+
+@media (max-width: 900px) {
+    .content-dna-paternity {
+      height: 126vh;
+    }
+    .dna-paternity .father {
+        max-width: 360px;
+        height: 92%;
+      }
+    .mommy {
+        max-width: 360px;
+        height: 72%;
+      }
+  }
+
+@media (max-width: 792px) {
+    .dna-paternity .father {
+        max-width: 270px;
+        height: 68%;
+      }
+    .mommy {
+        max-width: 270px;
+        height: 54%;
+      }
+}  
+
+@media (max-width: 728px) {
+    .content-dna-paternity {
+        height: 146vh;
+      }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 580px) {
+  .dna-paternity {
     height: 100vh;
-    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    z-index: 100;
+  }
+
+  .content-dna-paternity {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+    text-align: initial;
+    margin-bottom: 88%;
+  }
 
-.images-dna-paternity {
+  .images-dna-paternity {
     display: flex;
-}
+  }
 
-.images-dna-paternity img {
+  .images-dna-paternity img {
+    width: 100px;
+  }
+
+  .images-dna-paternity img {
     margin-right: 10px;
-}
+  }
 
-.content-dna-paternity h2, h4 {
-    font-size: 3rem;
+  .content-dna-paternity h2,
+  h4 {
+    font-size: 2.0rem;
+    line-height: 0px;
+    font-weight: 600;
     text-align: center;
-    line-height: 4.9rem;
-    font-weight: 700;
-}
+letter-spacing: -0.03em;
 
-.content-dna-paternity h4 {
-    color: #365F82;
-}
 
-.content-dna-paternity h3 {
-    font-size: 1.5625rem;
-    text-align: center;
-    color: #4C248E;
-    margin-bottom: 40px;
-}
 
-.imagens {
-    width: 100%;
-    height: 100%;
-    left: 0;
-}
+  }
 
-.imagensFix {
-    width: 100%;
-    height: 100%;
-    right: 0;
+  .content-dna-paternity h4 {
+    margin-bottom: 20px;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 2.5rem;
+line-height: 0px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.03em;
+  }
+
+  .content-dna-paternity h3 {
+    font-size: 1.6rem;
+    max-width: 280px;
+    margin-bottom: 12px;
+    line-height: 19px;
+    font-style: normal;
+font-weight: 300;
+
+
+text-align: center;
+letter-spacing: -0.05em;
+  }
+
+  .background-image {
+    display: flex;
+  }
+
+  .dna-paternity .father {
+    max-width: 224px;
+    height: 56%;
+  }
+
+  .mommy {
+        max-width: 226px;
+    height: 46%;
 }
-.dna-paternity .father {
-    /* height: 90vh; */
-    height: 100%;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    max-width: 702px;
-    background-size: 100%;
-    background-repeat: no-repeat;
   
-}
-
-.mommy {
-    /* height: 100vh; */
-    height: 100%;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    max-width: 702px;
-    background-size: 100%;
-    background-repeat: no-repeat;
- 
-}
-
-@media (max-width: 1330px) {
-    .dna-paternity .father {
-        max-width: 560px;
-    }
-    .mommy {
-        max-width: 560px;
-    }
-}
-
-@media (max-width: 1160px) {
-    .dna-paternity .father {
-        max-width: 460px;
-    }
-    
-}
-
-@media (max-width: 1034px) {
-    .dna-paternity .father {
-        max-width: 410px;
-    }
-    .mommy {
-        max-width: 490px;
-    }
-}
-
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .dna-paternity {
-        height: 100vh;
-        display: flex;
-        align-items: flex-end;
-        flex-direction: column;
-        z-index: 100;
-    }
-    
-    .content-dna-paternity {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        text-align: initial;
-        margin-top: 150px;
-    }
-    
-    .images-dna-paternity {
-        display: flex;
-    }
-
-    .images-dna-paternity img {
-        width: 100px;
-    }
-    
-    .images-dna-paternity img {
-        margin-right: 10px;
-    }
-    
-    .content-dna-paternity h2, h4 {
-        font-size: 2.5rem;
-        line-height: 5px;
-        font-weight: 700;
-    }
-    
-    .content-dna-paternity h4 {
-        margin-bottom: 20px;
-    }
-    
-    .content-dna-paternity h3 {
-        font-size: 1.4rem;
-        max-width: 280px;
-        margin-bottom: 40px;
-    }
-
-    .background-image {
-        display: flex;
-    }
-    
-    .dna-paternity .father {
-        fill: transparent;
-        height: 90vh;
-        width: 0;
-        height: 0;
-        display: flex;
-        align-items: flex-end;
-    }
-    
-    .mommy {
-        height: 100vh;
-        width: 400px;
-        height: 400px;
-    }
 }

@@ -1,68 +1,119 @@
 .steps {
-    height: 100vh;
-    background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .vector-step {
-    height: 100vh;
+  height: 100vh;
 }
 
-.vector-step img{
-    width: 100%;
-    height: 100px;
+.vector-step img {
+  width: 100%;
+  height: 100px;
 }
 
-.title-steps h2{
-    text-align: initial;
-    padding: 0 100px;
-    color: #365F82;
-    font-size:	1.875rem;
-    font-weight: 400;
-    margin: 0;
+.title-steps h2 {
+  font-family: "SF-Semibold";
+  text-align: initial;
+  padding: 0 100px;
+  color: #365f82;
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 0;
+  line-height: 36px;
+
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
 }
 
-.title-steps p{
-    text-align: initial;
-    padding: 0 100px;
-    color: #4C248E;
-    font-weight: 700;
-    font-size: 2.5rem;
-    margin-bottom: 100px;
+.title-steps p {
+  font-family: "SF-Semibold";
+  text-align: initial;
+  padding: 0 100px;
+  color: #4c248e;
+  font-weight: 500;
+  font-size: 4rem;
+  margin-bottom: 100px;
+  line-height: 55px;
+  letter-spacing: -0.05em;
 }
 
 .steps-coluns {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    color: #5A3D8A;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #5a3d8a;
 }
 
 .steps-coluns p {
-    margin-top: 30px;
+  font-family: "SF-Semibold";
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.03em;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media (max-width: 580px) {
     .steps {
-        height: 220vh;
-    }
+        height: auto;
+      }
     
-    .title-steps h2{
+      .title-steps h2 {
         padding: 0 60px;
-        font-size:	1.8rem;
+        font-size: 1.8rem;
         margin: 0;
-    }
+      }
     
-    .title-steps p{
+      .title-steps p {
         padding: 0 60px;
         font-size: 2.5rem;
         margin-bottom: 100px;
-    }
+      }
     
-    .steps-coluns {
+      .steps-coluns {
         display: flex;
         flex-direction: column;
-    }
+      }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 580px) {
+  .steps {
+    height: 220vh;
+  }
+
+  .title-steps h2 {
+    
+    font-size: 1.8rem;
+    margin: 0;
+
+    font-style: normal;
+font-weight: 500;
+
+line-height: 21px;
+letter-spacing: -0.03em;
+  }
+
+  .title-steps p {
+    padding: 0 60px;
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+
+    font-style: normal;
+font-weight: 600;
+
+line-height: 30px;
+letter-spacing: -0.03em;
+  }
+
+  .steps-coluns {
+    display: flex;
+    flex-direction: column;
+  }
 }

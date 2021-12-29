@@ -1,94 +1,147 @@
 .preview-youtube {
-    height: 100vh;
-    background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-preview-youtube {
-    margin-right: 80px;
+  margin-right: 5%;
 }
 
 .youtube-iframe {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .content-preview h2 {
-    color: #4C248E;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-top: 5px;
+  font-family: "SF-Semibold";
+  color: #4c248e;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 5px;
+  font-style: normal;
+
+  line-height: 110.34%;
+  /* or 44px */
+
+  text-align: initial;
+  letter-spacing: -0.05em;
 }
 
 .content-preview h3 {
-    color: #365F82;
-    font-weight: 400;
-    font-size: 1.875rem;
-    margin-bottom: 5px;
+  font-family: "SF-Semibold";
+  color: #365f82;
+  font-weight: normal;
+  font-size: 3rem;
+  margin-bottom: 5px;
+  font-style: normal;
+  line-height: 36px;
+  text-align: initial;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
 }
 
 .content-preview p {
-    font-size: 1.5625rem;
-    font-weight: 300;
-    line-height: 2.9rem;
-    color: #5A3D8A;
-    max-width: 600px;
+    font-family: "SF-Semibold";  
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 3.0rem;
+  color: #5a3d8a;
+  max-width: 600px;
+
+  font-style: normal;
+
 }
 
 .button-preview-youtube {
-    font-size: 1.25rem;
-    font-weight: 600;
-    background-color: #4C248E;
-    color: white;
-    border-radius: 50px;
-    width: 240px;
-    height: 60px;
+  font-size: 2.0rem;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #4c248e;
+  color: white;
+  border-radius: 50px;
+  width: 212px;
+  height: 59px;
+  line-height: 24px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media (max-width: 836px) {
     .preview-youtube {
         height: 100vh;
         flex-direction: column;
-    }
+      }
 
-    .youtube-iframe {
-        height: 150px;
-        width: 265px;
-        border-radius: 10px;
-    }
-    
-    .img-preview-youtube {
+      .img-preview-youtube {
         margin-right: 0;
-        margin-bottom: 40px;
+        margin-bottom: 10%;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    
-    .content-preview h2 {
-        font-size: 2.5rem;
-        max-width: 300px;
-        text-align: initial;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-    .content-preview h3 {
-        text-align: initial;
-        font-size: 1.8rem;
-        margin-bottom: 10px;
-    }
-    
-    .content-preview p {
-        font-size: 1.4rem;
-        line-height: 2.0rem;
-        max-width: 300px;
-    }
-    
-    .button-preview-youtube {
-        font-size: 1.4rem;
-        width: 140px;
-        height: 40px;
-    }
+      }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 580px) {
+  .preview-youtube {
+    height: 70vh;
+    flex-direction: column;
+  }
+
+  .youtube-iframe {
+    height: 150px;
+    width: 265px;
+    border-radius: 10px;
+  }
+
+  .img-preview-youtube {
+    margin-right: 0;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-preview h2 {
+    font-size: 2.5rem;
+    max-width: 300px;
+    text-align: initial;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    font-style: normal;
+font-weight: 600;
+
+line-height: 16px;
+letter-spacing: -0.03em;
+  }
+
+  .content-preview h3 {
+    text-align: initial;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+
+    font-style: normal;
+font-weight: 500;
+
+line-height: 21px;
+letter-spacing: -0.03em;
+  }
+
+  .content-preview p {
+    font-size: 1.4rem;
+   
+    max-width: 300px;
+
+    font-style: normal;
+font-weight: 300;
+
+line-height: 17px
+  }
+
+  .button-preview-youtube {
+    font-size: 1.4rem;
+    width: 140px;
+    height: 40px;
+  }
 }

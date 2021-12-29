@@ -22,7 +22,7 @@ export const Plans = () => {
                 <p><CheckCircleFilled /> Frete grátis</p>
                 <p><CheckCircleFilled /> Resultado em 7 dias</p>
                 <p><CheckCircleFilled /> Atendimento personalizado</p>
-                <h2>385,90</h2>
+                <h2>R$ 385,90</h2>
                 <div className='button-card-plans'>
                 <Button className='button-plans'>Comprar</Button>
                 </div>
@@ -35,7 +35,7 @@ export const Plans = () => {
                 <p><CheckCircleFilled /> Frete grátis</p>
                 <p><CheckCircleFilled /> Resultado em 7 dias</p>
                 <p><CheckCircleFilled /> Atendimento personalizado</p>
-                <h2>385,90</h2>
+                <h2>R$ 385,90</h2>
                 <div className='button-card-plans'>
                 <Button className='button-plans'>Comprar</Button>
                 </div>
@@ -48,7 +48,7 @@ export const Plans = () => {
                 <p><CheckCircleFilled /> Frete grátis</p>
                 <p><CheckCircleFilled /> Resultado em 7 dias</p>
                 <p><CheckCircleFilled /> Atendimento personalizado</p>
-                <h2>385,90</h2>
+                <h2>R$ 385,90</h2>
                 <div className='button-card-plans'>
                 <Button className='button-plans'>Comprar</Button>
                 </div>

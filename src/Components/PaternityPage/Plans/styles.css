@@ -1,122 +1,210 @@
 .plans {
-    height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
+}
+
+.title-plans {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title-plans h3 {
+  font-family: "SF-Semibold";
+  font-size: 3rem;
+  font-weight: normal;
+  color: #365f82;
+  margin: 0;
+
+  font-style: normal;
+
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+}
+
+.title-plans h2 {
+  font-family: "SF-Semibold";
+  font-size: 4.0rem;
+  font-weight: 500;
+  color: #4c248e;
+  margin: 0;
+
+  font-style: normal;
+line-height: 55px;
+/* or 44px */
+
+text-align: center;
+letter-spacing: -0.05em;
+}
+
+.card-plans {
+  margin-right: 30px;
+  width: 350px;
+  height: 500px;
+  box-shadow: 0px 4px 4px rgba(194, 194, 194, 0.25);
+  border-radius: 30px;
+}
+
+.body-card h3,
+h2 {
+  font-family: 'SF-Semibold';  
+  text-align: center;
+  margin: 30px 0 30px;
+  color: #2c00a9;
+  font-weight: 700;
+}
+
+.ant-col h2 {
+  background-image: url("./circle.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 65px;
+  text-align: center;
+  padding-top: 13px;
+}
+.body-card h3 {
+    font-family: 'SF-Semibold';  
+    text-align: center;
+    margin: 30px 0 30px;
+    color: #2c00a9;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 31px;
+  
+  
+    font-style: normal;
+}
+
+.body-card h2 {
+    font-family: 'SF-Semibold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 42px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+.body-card p {
+  font-size: 2.2rem;
+  color: #365f82;
+  line-height: 2.6rem;
+  font-weight: normal;
+  fill: red;
+  text-align: initial;
+  letter-spacing: -0.03em;
+
+  font-style: normal;
+
+
+}
+
+.body-card path {
+  fill: #6c72fc;
+}
+.button-plans {
+  background: #5a3d8a;
+  width: 154px;
+  height: 43px;
+  color: white;
+  border-radius: 50px;
+  font-size: 2.0rem;
+  font-family: 'SF-Semibold';
+}
+
+.button-card-plans {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1170px) {
+  .card-plans {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 911px) {
+  .ant-row {
+    display: flex;
+    justify-content: center;
+  }
+  .plans {
+    height: 220vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
-}
+    background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
+  }
 
-.title-plans {
-    text-align: center;
-    margin-bottom: 50px;
-}
+  .card-plans {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 460px;
+  }
 
-.title-plans h3 {
-    font-size: 1.875rem;
-    font-weight: 300;
-    color:#365F82;
-    margin: 0;
-}
-
-.title-plans h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #4C248E;
-    margin: 0;
-}
-
-.card-plans {
-    margin-right: 30px;
-    width: 350px;
-    height: 500px;
-    box-shadow: 0px 4px 4px rgba(194, 194, 194, 0.25);
-    border-radius: 30px;
-}
-
-.body-card h3, h2 {
-text-align: center;
-margin: 30px 0 30px;
-color: #2C00A9;
-font-weight: 700;
-}
-
-.body-card h3 {
-    font-size: 1.625rem;
-}
-
-.body-card h2 {
-    font-size: 2.1875rem;
-}
-
-.body-card p {
-    font-size: 1.375rem;
-    color: #365F82;
-    line-height: 2.6rem;
-    font-weight: 400;
-    fill: red;
-}
-
-.body-card path {
-    fill: #6C72FC;
-}
-.button-plans {
-    background: #5A3D8A;
-    width: 154px;
-    height: 43px;
-    color: white;
-    border-radius: 50px;
-}
-
-.button-card-plans {
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  .body-card h3,
+  h2 {
+    margin: 30px 0 30px;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .ant-row {
-        display: flex;
-        justify-content: center;
-    }
-    .plans {
-        height: 220vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background: linear-gradient(157.67deg, #FFFFFF 19.87%, #ECDEFE 80.31%);
-    }
-    
-    .title-plans h3 {
-        font-size: 1.8rem;
-    }
-    
-    .title-plans h2 {
-        font-size: 2.5rem;
-        max-width: 280px;
-    }
-    
-    .card-plans {
-        margin-right: 20px;
-        margin-bottom: 40px;
-        width: 300px;
-        height: 460px;
-    }
-    
-    .body-card h3, h2 {
+  .ant-row {
+    display: flex;
+    justify-content: center;
+  }
+  .plans {
+    height: 220vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
+  }
+
+  .title-plans h3 {
+    font-size: 1.8rem;
+  }
+
+  .title-plans h2 {
+    font-size: 2.5rem;
+    max-width: 280px;
+  }
+
+  .card-plans {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 460px;
+  }
+
+  .body-card h3,
+  h2 {
     margin: 30px 0 30px;
-    }
-    
-    .body-card h3 {
-        font-size: 2.0rem;
-    }
-    
-    .body-card h2 {
-        font-size: 2.8rem;
-    }
-    
-    .body-card p {
-        font-size: 1.8rem;
-    }
+  }
+
+  .body-card h3 {
+    font-size: 2rem;
+  }
+
+  .body-card h2 {
+    font-size: 2.8rem;
+  }
+
+  .body-card p {
+    font-size: 1.8rem;
+  }
 }

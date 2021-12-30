@@ -19,7 +19,7 @@ export const Tutorial = () => {
                 a coleta da saliva e enviando o material coletado
                 para ser analisado para o nosso laboratório parceiro!
             </p>
-            <Button className='button-preview-youtube'>Baixe nosso app</Button>
+            <Button className='button-preview-youtube'><a href="http://onelink.to/n6kdvt" target="_blank">Baixe nosso app</a></Button>
         </div>
         </div>
         </>

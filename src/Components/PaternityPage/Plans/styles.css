@@ -162,17 +162,23 @@ h2 {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+
   .ant-row {
     display: flex;
     justify-content: center;
   }
   .plans {
-    height: 220vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background: linear-gradient(157.67deg, #ffffff 19.87%, #ecdefe 80.31%);
+  }
+  .title-plans {
+    margin-top: 14%;
+
   }
 
   .title-plans h3 {
@@ -189,6 +195,10 @@ h2 {
     margin-bottom: 40px;
     width: 300px;
     height: 460px;
+  }
+
+  .ant-col h2 {
+    padding-top: 21px;
   }
 
   .body-card h3,

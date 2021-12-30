@@ -9,8 +9,8 @@ export const Dna = () => {
       {/* <div className="imagens">
         
       </div> */}
-      <div style={{width: '100%', height: '100vh'}}><img className="father" src="/images/vetor_pai.svg" alt="" /></div>
-     
+      <div style={{width: '100%', height: '100vh', position: 'relative'}}><img className="father" src="/images/vetor_pai.svg" alt="" /></div>
+      {/* <div className="imagens"/> */}
         {/* <div className="imagens">
           <img className="father" src="/images/vetor_pai.svg" alt="" />
         </div> */}
@@ -33,8 +33,8 @@ export const Dna = () => {
             </a>
           </div>
         </div>
-   
-      <div style={{width: '100%', height: '100vh'}}><img className="mommy" src="/images/vetor_mae.svg" alt="" /></div>
+        {/* <div className="imagensFix"/> */}
+      <div style={{width: '100%', height: '100vh', position: 'relative'}}><img className="mommy" src="/images/vetor_mae.svg" alt="" /></div>
       {/* <div className="imagens">
         <img className="mommy" src="/images/vetor_mae.svg" alt="" />
       </div> */}
